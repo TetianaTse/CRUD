@@ -1,3 +1,4 @@
+'use strict';
 let arrLocalStorage = JSON.parse(localStorage.getItem('info')) || [];
 if (arrLocalStorage.length === 0) {
   localStorage.setItem('info', JSON.stringify(data));
@@ -160,7 +161,7 @@ function formValidate(form) {
   let error = 0;
   let fielError = document.querySelectorAll('.field');
 
-  for(i=0; i < fielError.length; i++) {
+  for(let i=0; i < fielError.length; i++) {
     const input = fielError[i];
     formAddRemove(input);
 

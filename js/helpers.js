@@ -1,3 +1,4 @@
+'use strict';
 // create element
 
 function createElement(tagName, attributes, handlers, content, parent) {
@@ -33,7 +34,7 @@ function updateButton() {
     button.value = "Add";
     document.querySelector(".data_block").classList.remove("block");
     let fielError = document.querySelectorAll(".field");
-    for (i = 0; i < fielError.length; i++) {
+    for (let i = 0; i < fielError.length; i++) {
       const input = fielError[i];
       formAddRemove(input);
     }

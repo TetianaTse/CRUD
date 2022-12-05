@@ -1,3 +1,4 @@
+'use strict';
 const data = [
     {
        name: 'Tetiana Tsehychko',
@@ -6,7 +7,7 @@ const data = [
        email: 'tanchikqp@gmail.com',
        phone: '+380999999999',
        card: '4144575752521425',
-       id: 01,
+       id: 1,
     },
     {
         name: 'Elon Musk',
@@ -15,7 +16,7 @@ const data = [
         email: 'elon@gmail.com',
         phone: '+380991111111',
         card: '4144575752254545',
-        id: 02,
+        id: 2,
      },
      {
         name: 'Leonardo Dicaprio',
@@ -24,7 +25,7 @@ const data = [
         email: 'leo@gmail.com',
         phone: '+380995555566',
         card: '4144575752522589',
-        id: 03,
+        id: 3,
      },
      {
         name: 'Jennifer Lawrence',
@@ -33,6 +34,6 @@ const data = [
         email: 'jennlo@gmail.com',
         phone: '+380501235478',
         card: '4144575712587965',
-        id: 04,
+        id: 4,
      },
 ];
